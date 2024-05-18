@@ -30,14 +30,10 @@ body{
 
 .header-right a{
     float: left;
-    color: rgba(10, 1, 1, 0.952);
     text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 20px;
+    padding: 15px;
     font-weight: 600;
-    border-radius: 4px;
+    font-size: 18px;
 }
 
 .header a:hover{
@@ -69,17 +65,15 @@ body{
 
 
 .home{
-  color: rgb(28, 28, 102);
+  
   align-items: center;
   display: flex;
   height: 86vh;
-  padding-top: 1%;
-  padding-left: 5%;
   letter-spacing: 1px;
 }
 
 .home-content{
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .background{
