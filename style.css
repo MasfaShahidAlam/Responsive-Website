@@ -1,0 +1,132 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background: linear-gradient(to right,rgb(225, 228, 231) ,rgb(240, 164, 240));
+    background-repeat: no-repeat;
+
+}
+
+.logo{
+    height: auto;
+    width: 150px;
+    padding-left: 25px;
+}
+
+.header{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header-right a{
+    float: left;
+    color: rgba(10, 1, 1, 0.952);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.header a:hover{
+    background-color: rgb(116, 146, 146);
+}
+
+.header-right{
+    float: right;
+}
+
+
+.contact{
+     justify-content: center;
+     margin-right: 50px;
+     border-radius: 3px;
+     position: relative;
+     width: 150px;
+     height: 40px;
+     font-size: 19px;
+     color: rgb(255, 255, 255);
+     font-weight: 600;
+     letter-spacing: 1px;
+     overflow: hidden;
+     background: linear-gradient(to right,rgb(132, 132, 204),rgb(208, 162, 229));
+     z-index: 1;
+
+
+}
+
+
+.home{
+  color: rgb(28, 28, 102);
+  align-items: center;
+  display: flex;
+  height: 86vh;
+  padding-top: 1%;
+  padding-left: 5%;
+  letter-spacing: 1px;
+}
+
+.home-content{
+    line-height: 1.5;
+}
+
+.background{
+    width: 750px;
+    height: auto;
+    padding-top: 89px;
+}
+
+
+@media  screen and(max-width:500px) {
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+    .backgrund{
+        display: none;
+    }
+    body{
+        background-size: 100% 100%;
+    }
+}
+
+
+@media screen and  (max-width:375px) {
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+}
+  .header-right{
+    float: none;
+  } 
+
+ .backgrund{
+    display: none;
+ }
+
+body{
+    background-size: 100% 100%;
+}
+
+
+}
+
+
+
